@@ -1,0 +1,7 @@
+*.DS_Store
+node_modules
+npm-debug.log*
+plugins
+platforms
+template_src/www/css/*
+template_src/www/bundle.*

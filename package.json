@@ -1,0 +1,21 @@
+{
+  "name": "react-on-a-roll",
+  "version": "1.0.0-alpha.1",
+  "description": "Cordova template using React, OnsenUI, Rollup, Babel, Prettier, Eslint, Postcss and polyfills.",
+  "license": "MIT",
+  "keywords": [
+    "ecosystem:phonegap",
+    "ecosystem:cordova",
+    "cordova:template",
+    "phonegap:template",
+    "react",
+    "onsenui",
+    "react-onsenui",
+    "rollup"
+  ],
+  "bugs": {
+    "url": "https://github.com/airamrguez/reactonaroll/issues"
+  },
+  "homepage": "https://github.com/airamrguez/reactonaroll#readme",
+  "author": "Airam Rguez"
+}
