@@ -7,7 +7,7 @@
     "dist": "rollup -c --config rollup.config.prod.js",
     "build": "rollup -c --config rollup.config.dev.js",
     "start": "cordova build browser && rollup -c -w --config rollup.config.browser.js",
-    "postinstall": "cp -r node_modules/onsenui/css/ www/css/ && cordova prepare && cordova platform add browser > /dev/null 2>&1"
+    "postinstall": "cp -r node_modules/onsenui/css/ www/css/ && cordova platform add browser && cordova prepare"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.1",
