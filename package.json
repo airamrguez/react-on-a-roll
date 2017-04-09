@@ -14,9 +14,13 @@
     "react-onsenui",
     "rollup"
   ],
-  "bugs": {
-    "url": "https://github.com/airamrguez/reactonaroll/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airamrguez/react-on-a-roll.git"
   },
-  "homepage": "https://github.com/airamrguez/reactonaroll#readme",
+  "bugs": {
+    "url": "https://github.com/airamrguez/react-on-a-roll/issues"
+  },
+  "homepage": "https://github.com/airamrguez/react-on-a-roll#readme",
   "author": "Airam Rguez"
 }
