@@ -1,7 +1,8 @@
 {
   "name": "react-on-a-roll",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "Cordova template using React, OnsenUI, Rollup, Babel, Prettier, Eslint, Postcss and polyfills.",
+  "main": "index.js",
   "license": "MIT",
   "keywords": [
     "ecosystem:phonegap",
