@@ -34,7 +34,7 @@ npm start
 
 This will compile the application source code and will start a development server. The app will be reloaded every time the source code changes. You can use Cordova plugins in the browser because it uses the browser platform under the hood.
 
-# Run in a simulator device
+# Run in a simulator or a device
 
 ```
 npm build && cordova run ios android
