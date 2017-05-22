@@ -26,7 +26,7 @@ npm i
 
 This will install dependencies and add the browser platform.
 
-# Work in the browser
+# Work using the browser platform.
 
 ```
 npm start
