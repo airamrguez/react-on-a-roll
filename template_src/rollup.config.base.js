@@ -18,7 +18,7 @@ export default {
   plugins: [
     multiEntry(),
     babel({
-      exclude: 'node_modules/**'
+      include: ['src/**', 'node_modules/onsenui/**']
     }),
     resolve({
       extensions: ['.js', '.jsx'],
@@ -38,10 +38,13 @@ export default {
         ],
         'react-dom': ['render', 'findDOMNode', 'unmountComponentAtNode'],
         'react-onsenui': [
+          'ActionSheet',
+          'ActionSheetButton',
           'AlertDialog',
           'BackButton',
           'BottomToolbar',
           'Button',
+          'Card',
           'Carousel',
           'CarouselItem',
           'Col',
@@ -53,6 +56,7 @@ export default {
           'List',
           'ListHeader',
           'ListItem',
+          'ListTitle',
           'Navigator',
           'Modal',
           'Page',
@@ -76,6 +80,7 @@ export default {
           'TabActive',
           'TabInactive',
           'Tabbar',
+          'Toast',
           'Toolbar',
           'ToolbarButton'
         ]

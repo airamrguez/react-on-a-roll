@@ -1,60 +1,72 @@
 {
-  "name": "react-on-a-roll_src",
-  "version": "1.0.0",
-  "main": "www/index.js",
-  "license": "MIT",
-  "scripts": {
-    "dist": "rollup -c --config rollup.config.prod.js",
-    "build": "rollup -c --config rollup.config.dev.js",
-    "start": "cordova build browser && rollup -c -w --config rollup.config.browser.js",
-    "postinstall": "cp -r node_modules/onsenui/css/ www/css/ && if [ ! -d 'platforms/browser' ]; then cordova platform add browser; fi && cordova prepare"
-  },
-  "devDependencies": {
-    "babel-eslint": "^7.2.3",
-    "babel-plugin-external-helpers": "^6.22.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-latest": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1",
-    "cssnano": "^3.10.0",
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-config-prettier": "^2.1.0",
-    "eslint-plugin-flowtype": "^2.33.0",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^5.0.1",
-    "eslint-plugin-prettier": "^2.0.1",
-    "eslint-plugin-react": "^7.0.1",
-    "ip": "^1.1.5",
-    "postcss-cssnext": "^2.10.0",
-    "prettier": "^1.3.1",
-    "rollup": "^0.41.6",
-    "rollup-plugin-babel": "^2.7.1",
-    "rollup-plugin-commonjs": "^8.0.2",
-    "rollup-plugin-livereload": "^0.4.0",
-    "rollup-plugin-multi-entry": "^2.0.1",
-    "rollup-plugin-node-resolve": "^3.0.0",
-    "rollup-plugin-postcss": "^0.4.3",
-    "rollup-plugin-replace": "^1.1.1",
-    "rollup-plugin-serve": "^0.3.0",
-    "rollup-plugin-uglify": "^1.0.2",
-    "rollup-watch": "^3.2.2"
-  },
-  "dependencies": {
-    "babel-polyfill": "^6.23.0",
-    "onsenui": "^2.2.6",
-    "prop-types": "^15.5.10",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "react-onsenui": "^1.2.0",
-    "whatwg-fetch": "^2.0.3"
-  },
-  "config": {
-    "livereload": {
-      "port": 35729
+    "name": "react-on-a-roll_src",
+    "version": "1.0.0",
+    "main": "www/index.js",
+    "license": "MIT",
+    "scripts": {
+        "dist": "rollup -c --config rollup.config.prod.js",
+        "build": "rollup -c --config rollup.config.dev.js",
+        "start": "cordova build browser && rollup -c -w --config rollup.config.browser.js",
+        "postinstall": "cp -r node_modules/onsenui/css/ www/css/ && if [ ! -d 'platforms/browser' ]; then cordova platform add browser; fi && cordova prepare"
     },
-    "serve": {
-      "port": 8000
+    "devDependencies": {
+        "babel-eslint": "^7.2.3",
+        "babel-plugin-external-helpers": "^6.22.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-latest": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "babel-preset-stage-0": "^6.24.1",
+        "cssnano": "^3.10.0",
+        "eslint": "^3.19.0",
+        "eslint-config-airbnb": "^15.0.1",
+        "eslint-config-prettier": "^2.1.1",
+        "eslint-plugin-flowtype": "^2.33.0",
+        "eslint-plugin-import": "^2.2.0",
+        "eslint-plugin-jsx-a11y": "^5.0.3",
+        "eslint-plugin-prettier": "^2.1.1",
+        "eslint-plugin-react": "^7.0.1",
+        "ip": "^1.1.5",
+        "postcss-cssnext": "^2.9.0",
+        "prettier": "^1.3.1",
+        "rollup": "^0.41.6",
+        "rollup-plugin-babel": "^2.7.1",
+        "rollup-plugin-commonjs": "^8.0.2",
+        "rollup-plugin-livereload": "^0.4.0",
+        "rollup-plugin-multi-entry": "^2.0.1",
+        "rollup-plugin-node-resolve": "^3.0.0",
+        "rollup-plugin-postcss": "^0.5.0",
+        "rollup-plugin-replace": "^1.1.1",
+        "rollup-plugin-serve": "^0.3.0",
+        "rollup-plugin-uglify": "^2.0.0",
+        "rollup-watch": "^3.2.2"
+    },
+    "dependencies": {
+        "babel-polyfill": "^6.23.0",
+        "cordova-plugin-device": "~1.1.5",
+        "cordova-plugin-dialogs": "~1.3.2",
+        "cordova-plugin-statusbar": "^2.2.3",
+        "cordova-plugin-whitelist": "1",
+        "onsenui": "^2.3.0",
+        "prop-types": "^15.5.10",
+        "react": "^15.5.4",
+        "react-dom": "^15.5.4",
+        "react-onsenui": "^1.3.2",
+        "whatwg-fetch": "^2.0.3"
+    },
+    "config": {
+        "livereload": {
+            "port": 35729
+        },
+        "serve": {
+            "port": 8000
+        }
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-device": {},
+            "cordova-plugin-dialogs": {},
+            "cordova-plugin-statusbar": {},
+            "cordova-plugin-whitelist": {}
+        }
     }
-  }
 }

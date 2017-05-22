@@ -101,8 +101,8 @@
         <allow-intent href="itms-apps:*" />
         <allow-navigation href="http://*/*" />
     </platform>
-    <plugin name="cordova-plugin-whitelist" version="1" />
-    <plugin name="cordova-plugin-statusbar" spec="~2.1.3" />
     <plugin name="cordova-plugin-device" spec="~1.1.5" />
     <plugin name="cordova-plugin-dialogs" spec="~1.3.2" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.2.3" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
 </widget>
