@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@webcomponents/custom-elements@OnsenUI/custom-elements#1.0.0-rc.3+mod.20170410.1":
+"@webcomponents/custom-elements@github:onsenui/custom-elements#1.0.0-rc.3+mod.20170410.1":
   version "1.0.0-rc.3+mod.20170410.1"
-  resolved "https://codeload.github.com/OnsenUI/custom-elements/tar.gz/bf2f0a4aee940223cfa7eb18e29bd1da51edb90f"
+  resolved "https://codeload.github.com/onsenui/custom-elements/tar.gz/bf2f0a4aee940223cfa7eb18e29bd1da51edb90f"
 
 abbrev@1:
   version "1.1.0"
@@ -990,7 +990,7 @@ callsites@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-0.2.0.tgz#afab96262910a7f33c19a5775825c69f34e350ca"
 
-caniuse-api@^1.5.2, caniuse-api@^1.5.3:
+caniuse-api@^1.3.2, caniuse-api@^1.5.2:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/caniuse-api/-/caniuse-api-1.6.1.tgz#b534e7c734c4f81ec5fbe8aca2ad24354b962c6c"
   dependencies:
@@ -2375,7 +2375,7 @@ lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
 
-lodash@^4.0.0, lodash@^4.15.0, lodash@^4.17.4, lodash@^4.2.0, lodash@^4.3.0:
+lodash@^4.0.0, lodash@^4.15.0, lodash@^4.2.0, lodash@^4.3.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -2588,9 +2588,9 @@ onetime@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/onetime/-/onetime-1.1.0.tgz#a1f7838f8314c516f05ecefcbc4ccfe04b4ed789"
 
-onsenui@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/onsenui/-/onsenui-2.3.0.tgz#e50e2a42fcc4d8ee79255eaec1fff493b7eabf05"
+onsenui@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/onsenui/-/onsenui-2.3.1.tgz#c41f8c6961657c69f4aaefda8f1d871c7b73bd17"
   dependencies:
     "@webcomponents/custom-elements" OnsenUI/custom-elements#1.0.0-rc.3+mod.20170410.1
     core-js "2.4.1"
@@ -2815,12 +2815,12 @@ postcss-convert-values@^2.3.4:
     postcss "^5.0.11"
     postcss-value-parser "^3.1.2"
 
-postcss-cssnext@^2.10.0:
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/postcss-cssnext/-/postcss-cssnext-2.11.0.tgz#31e68f001e409604da703b66de14b8b8c8c9f2b1"
+postcss-cssnext@2.9:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/postcss-cssnext/-/postcss-cssnext-2.9.0.tgz#064df2a8c21fd2ebb88825df372cf20fca882868"
   dependencies:
     autoprefixer "^6.0.2"
-    caniuse-api "^1.5.3"
+    caniuse-api "^1.3.2"
     chalk "^1.1.1"
     pixrem "^3.0.0"
     pleeease-filters "^3.0.0"
@@ -2839,9 +2839,7 @@ postcss-cssnext@^2.10.0:
     postcss-custom-media "^5.0.0"
     postcss-custom-properties "^5.0.0"
     postcss-custom-selectors "^3.0.0"
-    postcss-font-family-system-ui "^1.0.1"
     postcss-font-variant "^2.0.0"
-    postcss-image-set-polyfill "^0.3.3"
     postcss-initial "^1.3.1"
     postcss-media-minmax "^2.1.0"
     postcss-nesting "^2.0.5"
@@ -2910,26 +2908,11 @@ postcss-filter-plugins@^2.0.0:
     postcss "^5.0.4"
     uniqid "^4.0.0"
 
-postcss-font-family-system-ui@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/postcss-font-family-system-ui/-/postcss-font-family-system-ui-1.0.2.tgz#3e1a5e3fb7e31e5e9e71439ccb0e8014556927c7"
-  dependencies:
-    lodash "^4.17.4"
-    postcss "^5.2.12"
-    postcss-value-parser "^3.3.0"
-
 postcss-font-variant@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/postcss-font-variant/-/postcss-font-variant-2.0.1.tgz#7ca29103f59fa02ca3ace2ca22b2f756853d4ef8"
   dependencies:
     postcss "^5.0.4"
-
-postcss-image-set-polyfill@^0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/postcss-image-set-polyfill/-/postcss-image-set-polyfill-0.3.3.tgz#ba36a330e1f294b2f0350e64285b92e538ee01ab"
-  dependencies:
-    postcss "^5.0.14"
-    postcss-media-query-parser "^0.2.3"
 
 postcss-initial@^1.3.1:
   version "1.5.3"
@@ -2943,10 +2926,6 @@ postcss-media-minmax@^2.1.0:
   resolved "https://registry.yarnpkg.com/postcss-media-minmax/-/postcss-media-minmax-2.1.2.tgz#444c5cf8926ab5e4fd8a2509e9297e751649cdf8"
   dependencies:
     postcss "^5.0.4"
-
-postcss-media-query-parser@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/postcss-media-query-parser/-/postcss-media-query-parser-0.2.3.tgz#27b39c6f4d94f81b1a73b8f76351c609e5cef244"
 
 postcss-merge-idents@^2.1.5:
   version "2.1.7"
@@ -3136,7 +3115,7 @@ postcss-zindex@^2.0.1:
     postcss "^5.0.4"
     uniqs "^2.0.0"
 
-postcss@^5.0.0, postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.13, postcss@^5.0.14, postcss@^5.0.16, postcss@^5.0.19, postcss@^5.0.2, postcss@^5.0.21, postcss@^5.0.3, postcss@^5.0.4, postcss@^5.0.5, postcss@^5.0.8, postcss@^5.1.1, postcss@^5.2.0, postcss@^5.2.12, postcss@^5.2.16:
+postcss@^5.0.0, postcss@^5.0.10, postcss@^5.0.11, postcss@^5.0.12, postcss@^5.0.13, postcss@^5.0.14, postcss@^5.0.16, postcss@^5.0.19, postcss@^5.0.2, postcss@^5.0.21, postcss@^5.0.3, postcss@^5.0.4, postcss@^5.0.5, postcss@^5.0.8, postcss@^5.1.1, postcss@^5.2.0, postcss@^5.2.16:
   version "5.2.16"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-5.2.16.tgz#732b3100000f9ff8379a48a53839ed097376ad57"
   dependencies:
@@ -3204,7 +3183,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.10, prop-types@^15.5.6, prop-types@^15.5.7, prop-types@~15.5.7:
+prop-types@^15.5.10, prop-types@^15.5.7, prop-types@~15.5.7:
   version "15.5.10"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.10.tgz#2797dfc3126182e3a95e3dfbb2e893ddd7456154"
   dependencies:
@@ -3254,12 +3233,6 @@ react-dom@^15.5.4:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
     prop-types "~15.5.7"
-
-react-onsenui@^1.3.2:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/react-onsenui/-/react-onsenui-1.3.2.tgz#7efdbdc294b422797a33f5d5d5dc345cce84210e"
-  dependencies:
-    prop-types "^15.5.6"
 
 react@^15.5.4:
   version "15.5.4"

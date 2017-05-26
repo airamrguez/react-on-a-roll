@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 
+import 'whatwg-fetch';
 import 'onsenui';
 import { Page, Button, AlertDialog } from 'react-onsenui';
 
