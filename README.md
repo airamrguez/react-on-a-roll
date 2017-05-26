@@ -2,6 +2,8 @@
 
 A Cordova template using React On(senUI) a(nd) Roll(up).
 
+[![npm version](https://badge.fury.io/js/react-on-a-roll.svg)](https://badge.fury.io/js/react-on-a-roll)
+
 # Getting Started
 
 ## What is included?
