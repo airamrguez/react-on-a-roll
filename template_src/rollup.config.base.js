@@ -18,7 +18,7 @@ export default {
   plugins: [
     multiEntry(),
     babel({
-      include: ['src/**', 'node_modules/react-onsenui/**']
+      include: ['src/**']
     }),
     resolve({
       extensions: ['.js', '.jsx'],
@@ -37,7 +37,7 @@ export default {
           'Children'
         ],
         'react-dom': ['render', 'findDOMNode', 'unmountComponentAtNode'],
-        'node_modules/react-onsenui/src/index.js': [
+        'react-onsenui': [
           'ActionSheet',
           'ActionSheetButton',
           'AlertDialog',
