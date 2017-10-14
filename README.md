@@ -23,7 +23,7 @@ A Cordova template using React On(senUI) a(nd) Roll(up).
 ```
 cordova create MyApp --template=react-on-a-roll
 cd MyApp
-npm i
+yarn
 ```
 
 This will install dependencies and add the browser platform.
@@ -31,7 +31,7 @@ This will install dependencies and add the browser platform.
 # Work using the browser platform.
 
 ```
-npm start
+yarn start
 ```
 
 This will compile the application source code and will start a development server. The app will be reloaded every time the source code changes. You can use Cordova plugins in the browser because it uses the browser platform under the hood.
@@ -39,13 +39,13 @@ This will compile the application source code and will start a development serve
 # Run in a simulator or a device
 
 ```
-npm build && cordova run ios android
+yarn build && cordova run ios android
 ```
 
 # Build for production
 
 ```
-npm run dist && cordova build ios android --release
+yarn run dist && cordova build ios android --release
 ```
 
 # License
